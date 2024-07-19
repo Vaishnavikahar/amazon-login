@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wrappar{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 95%;
+    width: 30%;
+    /* background-color: chartreuse; */
+    font-family: Arial, sans-serif;
+}
+.logo{
+    width: 100%;
+    height: 20%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amazon{
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    background-image: url(Amazon-Logo-PNG-Image.png);
+    background-position: center;
+    background-size: cover;
+}
+.form{
+    width: 100%;
+    height: 80%;
+    /* background-color: rgb(225, 0, 255); */
+    padding-left: 1vw;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.create{
+    font-size: 2.5vw;
+    font-weight: 100;
+    padding-bottom: 1vw;
+}
+.name label{
+    font-weight: 700;
+}
+.name input{
+    height:2.5vw;
+    width: 95%;
+    padding: 1vw;
+    border: 1px solid black;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.click button{
+    height:2.5vw;
+    width: 95%;
+    font-size: 1vw;
+    background-color: rgb(236, 212, 89);
+    border: none;
+    border-radius: 10px;
+}
+.text p{
+    font-size: 1.1vw;
+}
+.text h6{
+    font-size: 1.1vw;
+    font-weight: 100;
+}
+.sign{
+    /* text-align: center; */
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+
+
